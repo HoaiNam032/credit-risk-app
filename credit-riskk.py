@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import catboost
 from catboost import CatBoostClassifier
 
 # Tải model đã lưu
