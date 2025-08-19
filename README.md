@@ -14,7 +14,7 @@ Lớp: **DH22CS02 – Đại học Mở TP.HCM**
 ---
 
  **Xem bản rút gọn nội dung & slide thuyết trình (Canva)**:  
-[![Rút gọn nội dung](https://www.canva.com/design/DAGaSLrmj7g/08tlG_nK8LW4u2qz2MsagA/edit)
+(https://www.canva.com/design/DAGaSLrmj7g/08tlG_nK8LW4u2qz2MsagA/edit)
 
 
 ---
