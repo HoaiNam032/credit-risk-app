@@ -7,10 +7,6 @@ Dự án này được thực hiện trong môn học **Phân tích dữ liệu*
 - Ứng dụng các mô hình **Machine Learning** để dự đoán người vay có khả năng vỡ nợ.  
 - So sánh, đánh giá và lựa chọn mô hình tối ưu.  
 
-Người thực hiện: **Trần Hoài Nam**  
-GVHD: **ThS. Hồ Hướng Thiên**  
-Lớp: **DH22CS02 – Đại học Mở TP.HCM**
-
 ---
 
  **Xem bản rút gọn nội dung & slide thuyết trình (Canva)**:  
