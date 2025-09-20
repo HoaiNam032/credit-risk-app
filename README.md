@@ -35,25 +35,34 @@ Dự án này được thực hiện trong môn học **Phân tích dữ liệu*
 
 ## 📊 Các bước thực hiện
 1. **Khám phá & thống kê mô tả dữ liệu**  
+   - Sử dụng **Python (pandas, numpy)** để đọc/ghi dữ liệu, kiểm tra kích thước tập dữ liệu, phân bố nhãn, mô tả thống kê cơ bản (mean, median, std).  
+
 2. **Tiền xử lý dữ liệu**  
-   - Loại bỏ giá trị rỗng & trùng lặp  
-   - Xử lý outlier  
-   - Mã hóa biến phân loại  
-   - Xử lý dữ liệu mất cân bằng (SMOTE Oversampling)  
+   - Loại bỏ giá trị rỗng & trùng lặp bằng **pandas** (`dropna`, `drop_duplicates`).  
+   - Xử lý outlier bằng các hàm thống kê của **numpy/pandas**.  
+   - Mã hóa biến phân loại bằng **One-Hot Encoding** hoặc **LabelEncoder** trong scikit-learn.  
+   - Xử lý dữ liệu mất cân bằng bằng **SMOTE** từ thư viện `imblearn`.  
+
 3. **Trực quan hóa dữ liệu**  
-   - Phân tích biến mục tiêu  
-   - Phân phối biến định lượng & định tính  
-   - Mối quan hệ giữa các biến & rủi ro vỡ nợ  
+   - Vẽ biểu đồ phân tích biến mục tiêu, phân phối biến định lượng & định tính bằng **matplotlib, seaborn**.  
+   - Phân tích mối quan hệ giữa các biến và rủi ro vỡ nợ thông qua biểu đồ hộp, histogram và countplot.  
+
 4. **Phân tích tương quan (Correlation Matrix)**  
+   - Tính toán hệ số tương quan bằng **pandas.corr()**.  
+   - Vẽ heatmap bằng **seaborn** để xác định mối liên hệ giữa các biến độc lập và biến mục tiêu.  
+
 5. **Xây dựng mô hình Machine Learning**  
-   - CatBoost  
-   - Decision Tree  
-   - XGBoost  
-   - Random Forest  
+   - Triển khai nhiều mô hình bằng **scikit-learn** và **CatBoost/XGBoost**:  
+     - CatBoostClassifier  
+     - DecisionTreeClassifier  
+     - XGBClassifier  
+     - RandomForestClassifier  
+   - Viết script Python để chia tập dữ liệu train/test và huấn luyện mô hình.  
+
 6. **Đánh giá mô hình**  
-   - Accuracy, Precision, Recall, F1 Score  
-   - AUC - ROC Curve  
-   - Feature Importance  
+   - Đánh giá bằng các chỉ số **Accuracy, Precision, Recall, F1 Score** với `sklearn.metrics`.  
+   - Vẽ **AUC - ROC Curve** bằng matplotlib để phân tích khả năng phân tách lớp.  
+   - Phân tích **Feature Importance** từ CatBoost, XGBoost và Random Forest để rút ra insight.  
 
 ---
 
