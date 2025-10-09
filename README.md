@@ -1,7 +1,7 @@
 # 💳 Credit Risk Analysis & Prediction
 
 ## 📝 Giới thiệu
-Dự án này được thực hiện trong môn học **Phân tích dữ liệu** với mục tiêu:
+Dự án này được thực hiện với mục tiêu:
 - Phân tích các yếu tố ảnh hưởng đến **rủi ro tín dụng**.  
 - Xác định các đặc điểm quan trọng liên quan đến khả năng vỡ nợ.  
 - Ứng dụng các mô hình **Machine Learning** để dự đoán người vay có khả năng vỡ nợ.  
