@@ -7,10 +7,6 @@ Dự án này được thực hiện với mục tiêu:
 - Ứng dụng các mô hình **Machine Learning** để dự đoán người vay có khả năng vỡ nợ.  
 - So sánh, đánh giá và lựa chọn mô hình tối ưu.  
 
----
-
- **Xem bản rút gọn nội dung & slide thuyết trình (Canva)**:  
-(https://www.canva.com/design/DAGaSLrmj7g/08tlG_nK8LW4u2qz2MsagA/edit)
 
 
 ---
